@@ -1,1 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
+    <style>
+        
+
+.left{
+    display: flex;
+    width: 50vw;
+    gap: 50px;
+}
+
+.right{
+    flex: 50%;
+}
+
+.all{
+    display: flex;
+}
+.name{
+    margin-right: 250px;
+}
+
+.skill-bar-fill {
+      height: 8px;
+      background: linear-gradient(to right, #4caf50, #8bc34a);
+      width: 50px;
+      animation: fill-bar 1.6s forwards;
+    }
+
+
+
+    </style>
+</head>
